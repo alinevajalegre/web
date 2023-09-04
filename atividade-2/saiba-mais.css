@@ -9,9 +9,14 @@
     display: flex;
 }
 
-.center {
-    justify-content: center;
-    
+.saiba-mais {
+    flex-direction: column;
+    display: flex;
+    width: 60%;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+    margin: 50px 0px 0px 20%;
 }
 
 .about-button {
@@ -21,4 +26,49 @@
     background-color: #ADD9C8;
     border: 1px solid black;
     padding: 10px 40px 0px 40px;
+}
+
+#si401 {
+    font-size: 30px;
+    margin-top: -10px !important;
+}
+
+header {
+    color: #000000; 
+    margin: 30px 0px 30px 0px;
+}
+
+nav {
+    display: flex; 
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #000000 !important;
+    text-decoration: none; 
+    margin: 0 10px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.green-title {
+    color: #547266;
+    font-size: 40px;
+    text-decoration: underline 1px;
+}
+
+.saiba-mais a {
+    color: #547266;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;  
+    margin-left: 250px;
+    margin-top: 20px;
 }
