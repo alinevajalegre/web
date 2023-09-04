@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700');
+
+* {
+    background-color: #EFEBE7;
+    font-family: 'Fira Code', monospace;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+    
+}
+
+.about-button {
+    margin-top: -10px !important;
+    cursor: pointer;
+    height: 30px;
+    background-color: #ADD9C8;
+    border: 1px solid black;
+    padding: 10px 40px 0px 40px;
+}
